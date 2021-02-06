@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right bottom;
+   
+   
+}
+
+
+.test button{
+    padding: 20px;
+    background-color: red;
+    color: aliceblue;
+    margin: 50px;
+}
+
+
+.test button::before{
+  
+    content: "Hi";
+    
+}
+
+.container p::first-letter{
+    font-size:60px;
+}
+.container p::first-line{
+    color:red;
+    font-size: 40px;
+}
+
+.container p::selection{
+    color: red;
+    background-color: #ff0;
+}
+
+
+.test button:hover{
+    background-color: blue;
+    color: red;
+    padding: 22px;
+}
+
+/* .para p:first-child{
+    color: red;
+} */
+/* .para p:last-child{
+    color: red;
+} */
+
+/* .para p:nth-child(odd){
+    background-color: blue;
+}
+.para p:nth-child(even){
+    background-color: yellow;
+} */
+
+.para p:not(:nth-child()){
+    color: red;
+}
