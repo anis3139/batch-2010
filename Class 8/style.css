@@ -1,0 +1,16 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 1400px;
+}
+
+.body{
+   margin: 0px 15%;
+}
+
+.footer{
+    width: 100%;
+}
